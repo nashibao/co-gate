@@ -1,0 +1,25 @@
+{
+  "name": "co-gate",
+  "version": "0.0.1",
+  "description": "Gates to make an async callback to a synchronized syntax. This should be used with co.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nashibao/co-gate"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --harmony-generators"
+  },
+  "keywords": [
+    "async",
+    "co",
+    "gate",
+    "generator"
+  ],
+  "author": "nashibao",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "co": "*"
+  }
+}
