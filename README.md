@@ -25,7 +25,7 @@ Usage
 
 // require co
 var co = require('co')
-  , Gate = require('..')
+  , Gate = require('co-gate')
   , fs = require('fs');
 
 
