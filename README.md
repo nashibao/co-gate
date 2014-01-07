@@ -27,7 +27,8 @@ var co = require('co')
 
 co(function *(){
   // create gate
-  var gate = new Gate();
+  var gate = new Gate()
+    , val = undefined;
 
   // just call normal apis with gate.in() as callback
   fs.readFile("test/test1.txt", "utf-8", gate.in());
@@ -35,7 +36,7 @@ co(function *(){
 
   try{
     // yielded
-    var val = yield gate.out();
+    val = yield gate.out();
   }catch(e){
     console.log(e);
   }
