@@ -8,7 +8,7 @@ But you should change async apis to Thunks or Promises.
 `co-gate` protects you from complex callback syntax, but also from changing existing apis.
 
 This module is inspired by [chan](https://github.com/brentburgoyne/chan).
-A most important different is handling parallel async apis.
+A most important difference is handling parallel async apis.
 `co-gate` will stop at `yield` before all callback returned and return array with multiple values.
 
 Installation
