@@ -14,6 +14,10 @@ A most important difference is handling parallel async apis.
 Installation
 =======
 
+```bash
+npm install co-gate
+```
+
 Usage
 =======
 
