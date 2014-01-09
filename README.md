@@ -1,7 +1,7 @@
 co-gate
 =======
 
-Gates to make an async callback to a synchronized syntax. This should be used with co.
+Gate module to guard asynchronous API with a callback. It works nicely with co.
 
 [co](https://github.com/visionmedia/co) is a great solution to remove callbacks from your apps.
 But you should change async apis to Thunks or Promises.
