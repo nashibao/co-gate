@@ -1,6 +1,6 @@
 {
   "name": "co-gate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gates to make an async callback to a synchronized syntax. This should be used with co.",
   "main": "index.js",
   "directories": {
