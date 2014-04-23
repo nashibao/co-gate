@@ -33,6 +33,10 @@ Gate.prototype.in = function(){
       for(var i=0;i<gate.stack.length;i++){
         vals.push(gate.stack[i].val)
       }
+      
+      if(vals.length == 1)
+        vals = vals[0];
+
       if(gate.next)
         gate.next(null, vals);
     }

@@ -8,7 +8,7 @@ describe('co-gate', function(){
     co(function *(){
       var gate = new Gate();
       fs.readFile("test/test1.txt", "utf-8", gate.in());
-      fs.readFile("test/test3.txt", "utf-8", gate.in());
+      fs.readFile("test/test2.txt", "utf-8", gate.in());
       try{
         var val = yield gate.out();
         assert.equal(val[0], 'test1');
